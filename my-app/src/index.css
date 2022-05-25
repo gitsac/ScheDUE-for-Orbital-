@@ -34,7 +34,7 @@ code {
   border: 1px solid #E8E8E8;
 }
 
-calenderMonthContainer {
+.calenderMonthContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -90,4 +90,21 @@ calenderMonthContainer {
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+.loginWidget {
+  position: absolute;
+  width: 718px;
+  height: 609px;
+  left: 361px;
+  top: 208px;
+
+  background: #0B556C;
+  border-radius: 12px;
+}
+
+.loginInput {
+  position: absolute;
+  width: 710px;
+  height: 65px;
 }
