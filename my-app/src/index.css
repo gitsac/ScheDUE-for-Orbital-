@@ -104,7 +104,15 @@ code {
 }
 
 .loginInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  
   position: absolute;
-  width: 710px;
+  width: 690px;
   height: 65px;
+  
+  background: #FFFFFF;
 }
