@@ -7,14 +7,14 @@ const Login = () => {
         <div className='loginWidget'>
             <InputBox text = "Username" 
             style = {{
-                marginLeft: "359px",
-                marginTop: "480px"
+                left: "359px",
+                top: "480px"
                 }}
             />
             <InputBox text = "Password" 
             style = {{
-                marginLeft: "359px",
-                marginTop: "575px"
+                left: "359px",
+                top: "575px"
                 }}
             />
         </div>
