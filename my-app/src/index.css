@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #EF7B00;
+  border-radius: 6px;
+}
+
+.calenderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 10px;
+  width: 136px;
+  height: 137px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+}
+
+calenderMonthContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  width: 136px;
+  height: 22px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+}
+
+.taskWidget {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 10px;
+  gap: 10px;
+  width: 358px;
+  height: 64.46px;
+  border-radius: 6px;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 15px 20px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 409px;
+  height: 714px;
+  left: 1009px;
+  top: 156px;
+
+  background: #FFFFFF;
+  box-shadow: 4px 4px 4px 1px rgba(192, 191, 191, 0.25);
+  border-radius: 6px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
