@@ -1,25 +1,28 @@
-import React from 'react'
-import InputBox from './InputBox'
+import React from "react";
+import InputBox from "./InputBox";
 
 const Login = () => {
   return (
-    <> 
-        <div className='loginWidget'>
-            <InputBox text = "Username" 
-            style = {{
-                left: "359px",
-                top: "480px"
-                }}
-            />
-            <InputBox text = "Password" 
-            style = {{
-                left: "359px",
-                top: "575px"
-                }}
-            />
-        </div>
-    </>
-  )
-}
+    <>
+      <div className="loginWidget">
+        <InputBox
+          text="Username"
+          style={{
+            left: 612,
+            top: 526,
+          }}
+        />
 
-export default Login
+        <InputBox
+          text="Password"
+          style={{
+            left: 612,
+            top: 600,
+          }}
+        />
+      </div>
+    </>
+  );
+};
+
+export default Login;

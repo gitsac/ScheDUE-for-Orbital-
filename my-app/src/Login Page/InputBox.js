@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const InputBox = ({text}) => {
+const InputBox = ({ text }) => {
   return (
     <>
-        <div className='loginInput'>{text}</div>
+      <div className="loginInput">{text}</div>
     </>
-  )
-}
+  );
+};
 
-export default InputBox
+export default InputBox;
