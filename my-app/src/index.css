@@ -96,23 +96,74 @@ code {
   position: absolute;
   width: 718px;
   height: 609px;
-  left: 361px;
-  top: 208px;
-
+  left: 604px;
+  top: 235px;
+  
   background: #0B556C;
   border-radius: 12px;
 }
 
-.loginInput {
+.loginUsernameInput {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px;
   gap: 10px;
+  left: 615px;
+  top: 526px;
   
-  position: absolute;
+  position: relative;
   width: 690px;
   height: 65px;
   
   background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.loginPasswordInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  .loginUsernameInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  left: 615px;
+  top: 602px;
+  
+  position: relative;
+  width: 690px;
+  height: 65px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+  
+  position: relative;
+  width: 690px;
+  height: 65px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+
+.scheduetext {
+  /* position: absolute; */
+  /* width: 261px;
+  height: 115px;
+  left: 830px;
+  top: 283px; */
+
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 115px;
+  text-align: center;
+
+  color: #FFFFFF;
 }

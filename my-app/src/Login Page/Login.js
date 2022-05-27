@@ -5,17 +5,12 @@ const Login = () => {
   return (
     <> 
         <div className='loginWidget'>
+            <h1 className='scheduetext'>ScheDue</h1>
             <InputBox text = "Username" 
-            style = {{
-                left: "359px",
-                top: "480px"
-                }}
+            className="loginUsernameInput"
             />
-            <InputBox text = "Password" 
-            style = {{
-                left: "359px",
-                top: "575px"
-                }}
+            <InputBox text = "Password"
+            className="loginPasswordInput"
             />
         </div>
     </>
