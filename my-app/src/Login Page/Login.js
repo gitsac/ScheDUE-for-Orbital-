@@ -9,7 +9,7 @@ const Login = () => {
           text="Username"
           style={{
             left: 612,
-            top: 526,
+            top: 480,
           }}
         />
 

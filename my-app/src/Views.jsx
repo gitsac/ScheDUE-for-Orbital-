@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Login from "./Login Page/Login";
 import Button from "./Components/Button";
+import Main1 from "./Interface/Main1";
 import Header from "./Components/Header";
 
 const Views = () => {
@@ -24,7 +25,7 @@ const Views = () => {
         path="/interface"
         element={
           <div>
-            <Header />
+            <Main1></Main1>
           </div>
         }
       />
