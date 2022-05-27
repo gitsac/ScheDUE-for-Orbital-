@@ -126,22 +126,8 @@ code {
   align-items: center;
   padding: 10px;
   gap: 10px;
-  .loginUsernameInput {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
   left: 615px;
   top: 602px;
-  
-  position: relative;
-  width: 690px;
-  height: 65px;
-  
-  background: #FFFFFF;
-  border: 1px solid #000000;
-}
   
   position: relative;
   width: 690px;
