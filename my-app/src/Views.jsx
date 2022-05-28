@@ -25,7 +25,7 @@ const Views = () => {
         path="/interface"
         element={
           <div>
-            <Main1></Main1>
+            <Main1 />
           </div>
         }
       />
