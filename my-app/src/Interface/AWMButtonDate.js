@@ -7,7 +7,7 @@ const AWMButtonDate = () => {
     <>
       <div
         style={{
-          maxWidth: 1160,
+          maxWidth: 1200,
           justifyContent: "space-between",
           display: "flex",
           paddingTop: 80,
@@ -15,8 +15,8 @@ const AWMButtonDate = () => {
           alignItems: "center",
         }}
       >
-        <ArrowWithMonth month="June" />
-        <div style={{ paddingTop: 0 }}>
+        {/* <ArrowWithMonth month="June" /> */}
+        <div style={{ paddingLeft: 545, paddingTop: 0 }}>
           <Button className="btn" text="Link to LumiNUS" />
         </div>
       </div>

@@ -9,7 +9,9 @@ const CalendarWidget = () => {
     <div>
       <Calendar onChange={setDate} value={date} />
       <p>
-        <span style={{ fontWeight: "bold" }}>Selected Date: </span>
+        <span style={{ fontWeight: "bold", paddingLeft: 350, paddingTop: 100 }}>
+          Selected Date:{" "}
+        </span>
         {date.toDateString()}
       </p>
     </div>
