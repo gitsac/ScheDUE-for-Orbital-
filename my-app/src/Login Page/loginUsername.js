@@ -2,9 +2,9 @@ import React from 'react'
 
 const LoginUsername = () => {
   return (
-    <>
-        <input type="text" className='loginUsernameInput'>Username</input>
-    </>
+    <div>
+        <input type="text" className='loginUsernameInput' placeholder='Username' />
+    </div>
   )
 }
 
