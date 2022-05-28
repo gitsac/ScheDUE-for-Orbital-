@@ -1,7 +1,8 @@
 import React from "react";
-import Button from "../Components/Button";
+import { Calendar } from "react-calendar";
+import CalendarWidget from "../Components/CalendarWidget";
 import Header from "../Components/Header";
-import ArrowWithMonth from "./ArrowWithMonth";
+import AWMButtonDate from "./AWMButtonDate";
 
 const linkStyle = {
   top: 200,
@@ -14,10 +15,16 @@ const Main1 = () => {
       <div>
         <Header />
       </div>
-      <div className="calendarContainer">
-        <ArrowWithMonth />
-        <Button className="btn" text="Link to LumiNUS" />
-        <div className="calendarMonthContainer"></div>
+      <div>
+        <AWMButtonDate />
+      </div>
+      <div
+        style={{
+          maxWidth: 1200,
+          paddingLeft: 200,
+        }}
+      >
+        <CalendarWidget />
       </div>
     </>
   );

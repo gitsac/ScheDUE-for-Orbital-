@@ -58,6 +58,16 @@ code {
   font-size: 30px;
 }
 
+.lastUpdated {
+  position: relative;
+  max-width: 1600;
+  align-items: right;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 0;
+  padding-left: 1020;
+}
+
 .calenderContainer {
   display: flex;
   flex-direction: column;
