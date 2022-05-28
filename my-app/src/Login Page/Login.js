@@ -6,8 +6,8 @@ const Login = () => {
   return (
     <>
       <div className="loginWidget">
-      <LoginUsername />
-      <LoginPassword />
+        <LoginUsername />
+        <LoginPassword />
       </div>
     </>
   );
