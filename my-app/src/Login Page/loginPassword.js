@@ -3,7 +3,7 @@ import React from 'react'
 const LoginPassword = () => {
   return (
     <>
-        <div className='loginPasswordInput'>Password</div>
+        <input type="text" className='loginPasswordInput'>Password</input>
     </>
   )
 }

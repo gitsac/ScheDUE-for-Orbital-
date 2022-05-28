@@ -3,7 +3,7 @@ import React from 'react'
 const LoginUsername = () => {
   return (
     <>
-        <div className='loginUsernameInput'>Username</div>
+        <input type="text" className='loginUsernameInput'>Username</input>
     </>
   )
 }
