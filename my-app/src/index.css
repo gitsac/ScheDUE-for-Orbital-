@@ -1,24 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .btn {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #EF7B00;
+  background: #ef7b00;
   border-radius: 6px;
+}
+
+.btnForLogin {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #088608;
+  opacity: 1;
+  border-radius: 15px;
+  height: 45px;
+  width: 150px;
+  top: 650px;
+  left: 1100px;
+}
+
+.profileName {
+  display: flex;
+  position: relative;
+  /* flex-direction: row-reverse; */
+  float: right;
+  font-size: 20px;
+  top: 40px;
+}
+
+.interfaceDP {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  height: 100px;
+  width: 100px;
+  top: 0px;
+  right: 200px;
+  float: right;
+  font-size: 30px;
+}
+
+.lastUpdated {
+  position: relative;
+  max-width: 1600;
+  align-items: right;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 0;
+  padding-left: 1020;
 }
 
 .calenderContainer {
@@ -28,10 +75,12 @@ code {
   align-items: flex-start;
   padding: 12px;
   gap: 10px;
+
+  position: absolute;
   width: 136px;
   height: 137px;
-  background: #FFFFFF;
-  border: 1px solid #E8E8E8;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
 }
 
 .calenderMonthContainer {
@@ -40,10 +89,12 @@ code {
   align-items: center;
   padding: 5px;
   gap: 10px;
+
+  position: absolute;
   width: 136px;
   height: 22px;
-  background: #FFFFFF;
-  border: 1px solid #E8E8E8;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
 }
 
 .taskWidget {
@@ -70,7 +121,7 @@ code {
   left: 1009px;
   top: 156px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 4px 4px 4px 1px rgba(192, 191, 191, 0.25);
   border-radius: 6px;
 }
@@ -92,14 +143,27 @@ code {
   -webkit-transform: rotate(135deg);
 }
 
+.AWM {
+  position: relative;
+  /* top: 100px;
+  left: 250px; */
+}
+
 .loginWidget {
   position: absolute;
   width: 718px;
   height: 609px;
+<<<<<<< HEAD
   left: 604px;
   top: 235px;
   
   background: #0B556C;
+=======
+  left: 601px;
+  top: 175px;
+
+  background: #0b556c;
+>>>>>>> e980b7941120075cebc0624d835e5ef0d3aaa1ed
   border-radius: 12px;
 }
 
@@ -109,6 +173,7 @@ code {
   align-items: center;
   padding: 10px;
   gap: 10px;
+<<<<<<< HEAD
   left: 615px;
   top: 526px;
   
@@ -153,3 +218,12 @@ code {
 
   color: #FFFFFF;
 }
+=======
+
+  position: absolute;
+  width: 690px;
+  height: 65px;
+
+  background: #ffffff;
+}
+>>>>>>> e980b7941120075cebc0624d835e5ef0d3aaa1ed
