@@ -1,25 +1,17 @@
 import React from "react";
-import InputBox from "./InputBox";
+import LoginUsername from "./LoginUsername";
+import LoginPassword from "./LoginPassword";
 
 const Login = () => {
   return (
     <>
       <div className="loginWidget">
-        <InputBox
-          text="Username"
-          style={{
-            left: 612,
-            top: 480,
-          }}
-        />
-
-        <InputBox
-          text="Password"
-          style={{
-            left: 612,
-            top: 600,
-          }}
-        />
+        <h2 className="schedue">ScheDue</h2>
+        <h3 className="login">Log In</h3>
+        <LoginUsername />
+        <LoginPassword />
+        <div className="loginText">Forgot your password?</div>
+        <div className="loginText">Register</div>
       </div>
     </>
   );

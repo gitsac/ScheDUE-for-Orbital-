@@ -14,9 +14,7 @@ const Views = () => {
           <div>
             <Login />
             <Link to="/interface">
-              <div className="btnForLogin">
-                <Button text="Login" color="#088608"></Button>
-              </div>
+              <button className="signIn">Sign In</button>
             </Link>
           </div>
         }
