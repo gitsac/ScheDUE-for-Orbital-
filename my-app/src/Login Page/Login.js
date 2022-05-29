@@ -12,7 +12,6 @@ const Login = () => {
         <LoginPassword />
         <div className="loginText">Forgot your password?</div>
         <div className="loginText">Register</div>
-        <button className="signIn">Sign In</button>
       </div>
     </>
   );

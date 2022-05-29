@@ -235,8 +235,6 @@ code {
   border-radius: 20px;
   font-weight: 400;
   font-size: 28px;
-  
-  position: absolute;
-  left: 1100px;
-  top: 600px;
+  margin-left: 57%;
+  margin-top: -8%;
 }

@@ -7,10 +7,7 @@ import Login from "./Login Page/Login";
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Login />
-      </div>
-      {/* <Views /> */}
+      <Views />
     </BrowserRouter>
   );
 }
