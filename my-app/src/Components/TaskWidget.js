@@ -6,30 +6,30 @@ const TaskWidget = () => {
   let day = date.getDate();
   let month = date.getMonth() + 1;
   let year = date.getFullYear();
-  let numberToMonth = new Map([
-    [1, "January"],
-    [2, "February"],
-    [3, "March"],
-    [4, "April"],
-    [5, "May"],
-    [6, "June"],
-    [7, "July"],
-    [8, "August"],
-    [9, "September"],
-    [10, "October"],
-    [11, "November"],
-    [12, "December"],
-  ]);
+  // let numberToMonth = new Map([
+  //   [1, "January"],
+  //   [2, "February"],
+  //   [3, "March"],
+  //   [4, "April"],
+  //   [5, "May"],
+  //   [6, "June"],
+  //   [7, "July"],
+  //   [8, "August"],
+  //   [9, "September"],
+  //   [10, "October"],
+  //   [11, "November"],
+  //   [12, "December"],
+  // ]);
 
-  let Month = 1;
+  // let Month = 1;
 
-  for (let i = 1; i < 13; i++) {
-    if (i === month) {
-      Month = numberToMonth.get(i);
-    }
-  }
+  // for (let i = 1; i < 13; i++) {
+  //   if (i === month) {
+  //     Month = numberToMonth.get(i);
+  //   }
+  // }
 
-  let displayThis = day + " " + Month + " " + year;
+  // let displayThis = day + " " + Month + " " + year;
   return (
     <div
       style={{
@@ -39,7 +39,7 @@ const TaskWidget = () => {
       }}
     >
       {/* {displayThis} */}
-      {date.toDateString().substring(4)}
+      {/* {date.toDateString().substring(4)} */}
     </div>
   );
 };

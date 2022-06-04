@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Components/Button";
+import LinkToLumiNUS from "../Components/LinkToLumiNUS";
 import ArrowWithMonth from "./ArrowWithMonth";
 
 const AWMButtonDate = () => {
@@ -17,7 +18,8 @@ const AWMButtonDate = () => {
       >
         {/* <ArrowWithMonth month="June" /> */}
         <div style={{ paddingLeft: 545, paddingTop: 0 }}>
-          <Button className="btn" text="Link to LumiNUS" />
+          {/* <Button className="btn" text="Link to LumiNUS" /> */}
+          <LinkToLumiNUS />
         </div>
       </div>
       <div

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightcyan;
 }
 
 code {
@@ -156,7 +157,6 @@ code {
   align-items: center;
   margin: auto;
   margin-top: 8%;
-  
 
   background: #0b556c;
   border-radius: 12px;
@@ -188,7 +188,6 @@ code {
   height: 65px;
 
   margin: 15px;
-
 
   background: #ffffff;
 }
@@ -230,7 +229,7 @@ code {
   gap: 10px;
   width: 166px;
   height: 66px;
-  background: #5FFC65;
+  background: #5ffc65;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   font-weight: 400;
