@@ -6,9 +6,10 @@ import Login from "./Login Page/Login";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Views />
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Views />
+    // </BrowserRouter>
+    <div>HelloWorld!</div>
   );
 }
 
